@@ -12,7 +12,7 @@ export default function AboutPage() {
   return (
     <>
       {/* Doctor Bio */}
-      <section className="px-[6vw] py-[72px] pb-16 max-w-[1200px] mx-auto box-border grid grid-cols-[0.8fr_1.2fr] gap-[60px] items-start">
+      <section className="px-[6vw] py-10 md:py-[72px] pb-16 max-w-[1200px] mx-auto box-border grid grid-cols-1 md:grid-cols-[0.8fr_1.2fr] gap-10 md:gap-[60px] items-start">
         <div
           className="rounded-t-[220px] rounded-b-[14px] p-[14px] pb-0 max-w-[360px]"
           style={{
@@ -33,7 +33,7 @@ export default function AboutPage() {
           <div className="text-[13px] tracking-[2.5px] uppercase text-green font-bold mb-4">
             About the Doctor
           </div>
-          <h1 className="font-heading text-[42px] leading-[1.15] m-0 mb-5 font-normal">
+          <h1 className="font-heading text-[30px] md:text-[42px] leading-[1.15] m-0 mb-5 font-normal">
             Dr. Archit Adhvaryu
           </h1>
           <div className="flex gap-[10px] flex-wrap mb-[26px]">
@@ -72,10 +72,10 @@ export default function AboutPage() {
       {/* Why Patients Choose Us */}
       <section className="bg-cream-light border-t border-b border-border px-[6vw] py-16">
         <div className="max-w-[1200px] mx-auto">
-          <h2 className="font-heading text-[32px] font-normal m-0 mb-8">
+          <h2 className="font-heading text-[26px] md:text-[32px] font-normal m-0 mb-8">
             Why Patients Choose Me
           </h2>
-          <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-[18px]">
+          <div className="grid grid-cols-1 sm:grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-[18px]">
             {[
               {
                 title: "Experienced Ayurvedic specialist",
@@ -123,7 +123,7 @@ export default function AboutPage() {
 
       {/* CTA Quote */}
       <section className="px-[6vw] py-16 text-center">
-        <h2 className="font-heading text-[30px] font-normal m-0 mb-3 max-w-[26ch] mx-auto">
+        <h2 className="font-heading text-[24px] md:text-[30px] font-normal m-0 mb-3 max-w-[26ch] mx-auto">
           &ldquo;Let Ayurveda be your partner in healing naturally,
           holistically and permanently.&rdquo;
         </h2>

@@ -5,12 +5,12 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <section className="px-[6vw] py-[72px] pb-[80px] grid grid-cols-[1.15fr_0.85fr] gap-[60px] items-center max-w-[1200px] mx-auto box-border">
+      <section className="px-[6vw] py-10 md:py-[72px] md:pb-[80px] grid grid-cols-1 md:grid-cols-[1.15fr_0.85fr] gap-10 md:gap-[60px] items-center max-w-[1200px] mx-auto box-border">
         <div>
           <div className="text-[13px] tracking-[2.5px] uppercase text-green font-bold mb-[18px]">
             Ayurvedic ENT &amp; Eye Specialist · Ahmedabad
           </div>
-          <h1 className="font-heading text-[52px] leading-[1.12] m-0 mb-[22px] font-normal">
+          <h1 className="font-heading text-[32px] md:text-[52px] leading-[1.12] m-0 mb-[22px] font-normal">
             Your Health,
             <br />
             Our Responsibility.
@@ -87,7 +87,7 @@ export default function Home() {
           <div className="text-[13px] tracking-[2.5px] uppercase text-green font-bold mb-3">
             Areas of Practice
           </div>
-          <h2 className="font-heading text-[34px] font-normal m-0 mb-9">
+          <h2 className="font-heading text-[26px] md:text-[34px] font-normal m-0 mb-9">
             Specialised Ayurvedic Care
           </h2>
           <div className="grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-6">
@@ -153,7 +153,7 @@ export default function Home() {
       <section className="bg-green-dark px-[6vw] py-14">
         <div className="max-w-[1200px] mx-auto flex justify-between items-center gap-8 flex-wrap">
           <div>
-            <h2 className="font-heading text-[30px] font-normal text-green-footer-heading m-0 mb-[10px]">
+            <h2 className="font-heading text-[24px] md:text-[30px] font-normal text-green-footer-heading m-0 mb-[10px]">
               Consult from the comfort of your home
             </h2>
             <p className="text-green-banner-text text-[16px] leading-[1.6] m-0 max-w-[60ch]">
@@ -176,7 +176,7 @@ export default function Home() {
           <div className="text-[13px] tracking-[2.5px] uppercase text-green font-bold mb-3">
             At the Centre
           </div>
-          <h2 className="font-heading text-[34px] font-normal m-0 mb-9">
+          <h2 className="font-heading text-[26px] md:text-[34px] font-normal m-0 mb-9">
             Facilities for Your Comfort
           </h2>
           <div className="grid grid-cols-[repeat(auto-fit,minmax(230px,1fr))] gap-[18px]">
@@ -226,7 +226,7 @@ export default function Home() {
       <section className="bg-cream-light border-t border-border px-[6vw] py-16">
         <div className="max-w-[1200px] mx-auto grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-10 items-center">
           <div>
-            <h2 className="font-heading text-[32px] font-normal m-0 mb-[14px]">
+            <h2 className="font-heading text-[26px] md:text-[32px] font-normal m-0 mb-[14px]">
               Visit the Centre
             </h2>
             <p className="text-[16px] leading-[1.7] text-text-secondary m-0 mb-2">

@@ -53,7 +53,7 @@ export default function ContactPage() {
         <div className="text-[13px] tracking-[2.5px] uppercase text-green font-bold mb-4">
           Contact
         </div>
-        <h1 className="font-heading text-[44px] leading-[1.15] m-0 mb-[18px] font-normal">
+        <h1 className="font-heading text-[30px] md:text-[44px] leading-[1.15] m-0 mb-[18px] font-normal">
           Book an Appointment
         </h1>
         <p className="text-[17px] leading-[1.7] text-text-secondary m-0 max-w-[64ch]">
@@ -120,7 +120,7 @@ export default function ContactPage() {
       </section>
 
       {/* Form + Sidebar */}
-      <section className="px-[6vw] pt-12 pb-16 max-w-[1200px] mx-auto box-border grid grid-cols-[1.1fr_0.9fr] gap-12 items-start">
+      <section className="px-[6vw] pt-12 pb-16 max-w-[1200px] mx-auto box-border grid grid-cols-1 md:grid-cols-[1.1fr_0.9fr] gap-8 md:gap-12 items-start">
         {/* Form */}
         <div className="bg-cream-light border border-border rounded-xl p-9">
           <h2 className="font-heading text-[26px] font-normal m-0 mb-2">
@@ -130,7 +130,7 @@ export default function ContactPage() {
             Submitting opens WhatsApp with your message ready to send.
           </p>
           <div className="flex flex-col gap-[18px]">
-            <div className="grid grid-cols-2 gap-[18px]">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-[18px]">
               <label className="flex flex-col gap-[6px] text-[14px] font-bold text-green-dark">
                 Full name
                 <input
@@ -233,7 +233,7 @@ export default function ContactPage() {
       {/* FAQ */}
       <section className="bg-cream-light border-t border-border px-[6vw] py-16">
         <div className="max-w-[860px] mx-auto">
-          <h2 className="font-heading text-[32px] font-normal m-0 mb-8">
+          <h2 className="font-heading text-[26px] md:text-[32px] font-normal m-0 mb-8">
             Frequently Asked Questions
           </h2>
           <div className="flex flex-col gap-3">

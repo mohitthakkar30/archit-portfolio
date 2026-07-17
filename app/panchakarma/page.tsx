@@ -93,7 +93,7 @@ export default function PanchakarmaPage() {
         <div className="text-[13px] tracking-[2.5px] uppercase text-green font-bold mb-4">
           Therapies at the Centre
         </div>
-        <h1 className="font-heading text-[44px] leading-[1.15] m-0 mb-[18px] font-normal max-w-[22ch]">
+        <h1 className="font-heading text-[30px] md:text-[44px] leading-[1.15] m-0 mb-[18px] font-normal max-w-[22ch]">
           Panchakarma &amp; Ayurvedic Therapies
         </h1>
         <p className="text-[17px] leading-[1.7] text-text-secondary m-0 max-w-[66ch]">
@@ -108,7 +108,7 @@ export default function PanchakarmaPage() {
       {/* Five Karmas */}
       <section className="bg-cream-light border-t border-border px-[6vw] py-14">
         <div className="max-w-[1200px] mx-auto">
-          <h2 className="font-heading text-[30px] font-normal m-0 mb-2">
+          <h2 className="font-heading text-[24px] md:text-[30px] font-normal m-0 mb-2">
             The Five Karmas
           </h2>
           <p className="text-[15.5px] text-text-secondary m-0 mb-[30px]">
@@ -138,7 +138,7 @@ export default function PanchakarmaPage() {
       {/* Specialised Therapies */}
       <section className="px-[6vw] py-14">
         <div className="max-w-[1200px] mx-auto">
-          <h2 className="font-heading text-[30px] font-normal m-0 mb-2">
+          <h2 className="font-heading text-[24px] md:text-[30px] font-normal m-0 mb-2">
             Specialised Therapies
           </h2>
           <p className="text-[15.5px] text-text-secondary m-0 mb-[30px]">
@@ -166,7 +166,7 @@ export default function PanchakarmaPage() {
       {/* Supportive Therapies */}
       <section className="bg-cream-light border-t border-border px-[6vw] py-14">
         <div className="max-w-[1200px] mx-auto">
-          <h2 className="font-heading text-[30px] font-normal m-0 mb-2">
+          <h2 className="font-heading text-[24px] md:text-[30px] font-normal m-0 mb-2">
             Supportive Therapies
           </h2>
           <p className="text-[15.5px] text-text-secondary m-0 mb-[30px]">
@@ -193,7 +193,7 @@ export default function PanchakarmaPage() {
       {/* Additional Procedures */}
       {/* <section className="px-[6vw] py-14">
         <div className="max-w-[1200px] mx-auto">
-          <h2 className="font-heading text-[30px] font-normal m-0 mb-2">
+          <h2 className="font-heading text-[24px] md:text-[30px] font-normal m-0 mb-2">
             Additional Ayurveda Procedures
           </h2>
           <p className="text-[15.5px] text-text-secondary m-0 mb-[30px]">
@@ -222,7 +222,7 @@ export default function PanchakarmaPage() {
       <section className="bg-green-dark px-[6vw] py-14">
         <div className="max-w-[1200px] mx-auto flex justify-between items-center gap-8 flex-wrap">
           <div>
-            <h2 className="font-heading text-[28px] font-normal text-green-footer-heading m-0 mb-[10px]">
+            <h2 className="font-heading text-[22px] md:text-[28px] font-normal text-green-footer-heading m-0 mb-[10px]">
               Wondering which therapy is right for you?
             </h2>
             <p className="text-green-banner-text text-[16px] leading-[1.6] m-0 max-w-[60ch]">

@@ -79,7 +79,7 @@ export default function TreatmentsPage() {
         <div className="text-[13px] tracking-[2.5px] uppercase text-green font-bold mb-4">
           Conditions We Treat
         </div>
-        <h1 className="font-heading text-[44px] leading-[1.15] m-0 mb-[18px] font-normal max-w-[24ch]">
+        <h1 className="font-heading text-[30px] md:text-[44px] leading-[1.15] m-0 mb-[18px] font-normal max-w-[24ch]">
           Ayurvedic Treatment for ENT &amp; Eye Conditions
         </h1>
         <p className="text-[17px] leading-[1.7] text-text-secondary m-0 max-w-[66ch]">
@@ -110,7 +110,7 @@ export default function TreatmentsPage() {
         <div className="max-w-[1200px] mx-auto">
           <div className="flex items-center gap-[14px] mb-[26px]">
             <div className="w-[14px] h-[14px] rounded-full bg-accent" />
-            <h2 className="font-heading text-[30px] font-normal m-0">
+            <h2 className="font-heading text-[24px] md:text-[30px] font-normal m-0">
               Conditions Related to Ear
             </h2>
           </div>
@@ -136,7 +136,7 @@ export default function TreatmentsPage() {
         <div className="max-w-[1200px] mx-auto">
           <div className="flex items-center gap-[14px] mb-[26px]">
             <div className="w-[14px] h-[14px] rounded-full bg-green" />
-            <h2 className="font-heading text-[30px] font-normal m-0">
+            <h2 className="font-heading text-[24px] md:text-[30px] font-normal m-0">
               Conditions Related to Nose
             </h2>
           </div>
@@ -162,7 +162,7 @@ export default function TreatmentsPage() {
         <div className="max-w-[1200px] mx-auto">
           <div className="flex items-center gap-[14px] mb-[26px]">
             <div className="w-[14px] h-[14px] rounded-full bg-gold" />
-            <h2 className="font-heading text-[30px] font-normal m-0">
+            <h2 className="font-heading text-[24px] md:text-[30px] font-normal m-0">
               Conditions Related to Throat
             </h2>
           </div>
@@ -188,7 +188,7 @@ export default function TreatmentsPage() {
         <div className="max-w-[1200px] mx-auto">
           <div className="flex items-center gap-[14px] mb-[26px]">
             <div className="w-[14px] h-[14px] rounded-full bg-brown" />
-            <h2 className="font-heading text-[30px] font-normal m-0">
+            <h2 className="font-heading text-[24px] md:text-[30px] font-normal m-0">
               Conditions Related to Mouth
             </h2>
           </div>
@@ -214,7 +214,7 @@ export default function TreatmentsPage() {
         <div className="max-w-[1200px] mx-auto">
           <div className="flex items-center gap-[14px] mb-[26px]">
             <div className="w-[14px] h-[14px] rounded-full bg-teal" />
-            <h2 className="font-heading text-[30px] font-normal m-0">
+            <h2 className="font-heading text-[24px] md:text-[30px] font-normal m-0">
               Conditions Related to Eye
             </h2>
           </div>
@@ -233,7 +233,7 @@ export default function TreatmentsPage() {
 
       {/* CTA */}
       <section className="px-[6vw] py-16 text-center border-t border-border">
-        <h2 className="font-heading text-[30px] font-normal m-0 mb-3">
+        <h2 className="font-heading text-[24px] md:text-[30px] font-normal m-0 mb-3">
           Facing one of these conditions?
         </h2>
         <p className="text-text-secondary text-[16px] m-0 mb-7 max-w-[56ch] mx-auto">
